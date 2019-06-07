@@ -1,3 +1,4 @@
+
 html, body{
     margin:0;
     background-image: url('../images/psychedelic_pattern.png');
@@ -117,7 +118,7 @@ footer {
 
 .Footer-Content {
    position: fixed;
-   bottom: 0;
+   bottom: 2px;
    left: 50%;
 }
 
@@ -190,4 +191,235 @@ h3 {
    font-family: 'Georgia', Times, 'Times New Roman', serif;
    font-size: 18pt;
    font-weight: 520;
+}
+
+
+@media (max-width: 980px) {
+   .Main-Content {
+      position: relative;
+      width: 518px;
+      background-color:#ffffff;
+      border: 1px solid #dddddd;
+      margin: 0px 200px 0px 90px;
+      padding: 20px;
+   }
+
+   .Header-Content {
+      width: 760px;
+      height: 100%;
+      margin: 0px 200px 0px 90px;
+   }
+   
+   .ImageHolder {
+      float: left;
+      position:relative;
+      height: 188.5px;
+      margin-right:10px;
+      margin-bottom: 10px;
+      width: 234px;
+   }
+
+   .position-relative {
+      position: relative;
+      left:0px;
+      width: 234px;
+      height: 188.5px;
+   }
+
+   .Image-Label {
+      position: absolute;
+      width: 234px;
+      height: 60px;
+      background-color: #4aaaa5;
+      top: 110px;
+      z-index: 1;
+   }
+   
+   h3 {
+      position:relative;
+      top: 12px;
+      text-align: center;
+      font-family: 'Georgia', Times, 'Times New Roman', serif;
+      font-size: 18pt;
+      font-weight: 520;
+   }
+   
+}
+@media (max-width: 768px) {
+   .Main-Content {
+      position: relative;
+      width: 518px;
+      background-color:#ffffff;
+      border: 1px solid #dddddd;
+      margin: 0px 15px 0px 15px;
+      padding: 20px;
+   }
+
+   .Header-Content {
+      width: 760px;
+      height: 100%;
+      margin: 0px 200px 0px 90px;
+   }
+   
+   .ImageHolder {
+      float: left;
+      position:relative;
+      height: 188.5px;
+      margin-right:10px;
+      margin-bottom: 10px;
+      width: 234px;
+   }
+
+   .position-relative {
+      position: relative;
+      left:0px;
+      width: 234px;
+      height: 188.5px;
+   }
+
+   .Image-Label {
+      position: absolute;
+      width: 234px;
+      height: 60px;
+      background-color: #4aaaa5;
+      top: 110px;
+      z-index: 1;
+   }
+   
+   h3 {
+      position:relative;
+      top: 12px;
+      text-align: center;
+      font-family: 'Georgia', Times, 'Times New Roman', serif;
+      font-size: 18pt;
+      font-weight: 520;
+   }
+
+}
+@media (max-width: 640px) {
+   .Main-Content {
+      position: relative;
+      width: 568px;
+      background-color:#ffffff;
+      border: 1px solid #dddddd;
+      margin: auto;
+      padding: 20px;
+   }
+
+   header{
+      height:130px;
+   }
+
+   .Header-Content {
+      width: 640px;
+      height: 100%;
+      margin: 0px 0px 0px 0px;
+   }
+   
+   .ImageHolder {
+      float: left;
+      position:relative;
+      height: 300.5px;
+      margin-right:10px;
+      margin-bottom: 10px;
+      width: 560px;
+      left:1px;
+   }
+
+   .position-relative {
+      position: relative;
+      left:0px;
+      width: 560px;
+      height: 300.5px;
+   }
+
+   .Image-Label {
+      position: absolute;
+      width: 234px;
+      height: 60px;
+      background-color: #4aaaa5;
+      top: 110px;
+      z-index: 1;
+   }
+   
+   h3 {
+      position:relative;
+      top: 12px;
+      text-align: center;
+      font-family: 'Georgia', Times, 'Times New Roman', serif;
+      font-size: 18pt;
+      font-weight: 520;
+   }
+
+   .Personal-Img{
+      width: 568px;
+      height: 442px;
+      padding-right: 0px;
+      float: none;
+  }
+
+  .HeadingWrapper{
+      width: 100%;
+      float: left;
+   }
+
+   nav {
+      height: 50px;
+      width: 100%;
+      float: left;
+      text-align: center;
+      margin-top: 0px;
+      padding-top: 22px;
+      background-color:#ffffff;
+      border-bottom: 2px solid #dddddd;
+   }
+
+   .NavLink {
+      margin: 120px 0px 0px 0px;
+   }
+
+   .Footer-Content{
+      left:262px;
+   }
+   
+   input[type=text] {
+      width: 560px;
+      padding-left: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      margin-top: 5px;
+   }
+   
+   textarea {
+      width: 560px;
+      height: 200px;
+      margin: auto;
+      padding-left: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      overflow: auto;
+      margin-bottom: 10px;
+      margin-top: 5px;
+   }
+   
+   input[type=submit] {
+      background-color: #4aaaa5;
+      border: none;
+      color: #ffffff;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 15px;
+   }
+
+   .Image-Label {
+      position: absolute;
+      width: 560px;
+      height: 60px;
+      background-color: #4aaaa5;
+      top: 220px;
+   }
 }
