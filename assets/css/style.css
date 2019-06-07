@@ -248,42 +248,51 @@ h3 {
 @media (max-width: 768px) {
    .Main-Content {
       position: relative;
-      width: 518px;
+      width: 688px;
       background-color:#ffffff;
       border: 1px solid #dddddd;
-      margin: 0px 15px 0px 15px;
+      margin: auto;
       padding: 20px;
    }
 
+   header{
+      height:75px;
+   }
+
    .Header-Content {
-      width: 760px;
+      width: 768px;
       height: 100%;
-      margin: 0px 200px 0px 90px;
+      margin: 0px 0px 0px 0px;
    }
    
    .ImageHolder {
       float: left;
       position:relative;
-      height: 188.5px;
+      height: 200.5px;
       margin-right:10px;
-      margin-bottom: 10px;
-      width: 234px;
+      margin-bottom: 25px;
+      width: 325px;
+      left:1px;
    }
 
    .position-relative {
       position: relative;
       left:0px;
-      width: 234px;
-      height: 188.5px;
+      width: 325px;
+      height: 200.5px;
    }
 
    .Image-Label {
       position: absolute;
-      width: 234px;
-      height: 60px;
+      width: 325px;
+      height: 45px;
       background-color: #4aaaa5;
-      top: 110px;
+      top: 120px;
       z-index: 1;
+   }
+
+   .image-left {
+      margin-right: 25px;
    }
    
    h3 {
@@ -293,6 +302,71 @@ h3 {
       font-family: 'Georgia', Times, 'Times New Roman', serif;
       font-size: 18pt;
       font-weight: 520;
+   }
+
+   .Personal-Img{
+      width: 368px;
+      height: 242px;
+      padding-right: 25px;
+      float: left;
+  }
+
+  .HeadingWrapper{
+      width: 37%;
+      float: left;
+      margin-left: 20px;
+   }
+
+   nav {
+      height: 50px;
+      width: 300px;
+      float: right;
+      margin-left: 20px;
+      text-align: center;
+      margin-top: 25px;
+      padding-top: 0px;
+      background-color:#ffffff;
+   }
+
+   .NavLink {
+      margin: 120px 0px 0px 0px;
+   }
+
+   .Footer-Content{
+      left:325px;
+   }
+   
+   input[type=text] {
+      width: 682px;
+      padding-left: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      margin-top: 5px;
+   }
+   
+   textarea {
+      width: 682px;
+      height: 200px;
+      margin: auto;
+      padding-left: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      overflow: auto;
+      margin-bottom: 10px;
+      margin-top: 5px;
+   }
+   
+   input[type=submit] {
+      background-color: #4aaaa5;
+      border: none;
+      color: #ffffff;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 15px;
    }
 
 }
